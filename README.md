@@ -6,9 +6,8 @@ I'm a passionate Information Science and Engineering student with interests in w
 
 - 🌱 I’m currently learning in new technologies
 - 💬 Ask me about my project
-- 📫 How to reach me:
+- 📫 U can reach me through:
 
-<div align="center">
   <a href="https://www.linkedin.com/in/poovarasan-s-a69128260/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn logo" />
   </a>
@@ -21,7 +20,6 @@ I'm a passionate Information Science and Engineering student with interests in w
   <a href="https://wa.me/qr/2YT2WUPUM6L6H1" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/whatsapp/default.svg" width="52" height="40" alt="WhatsApp logo" />
   </a>
-</div>
 
 ## GitHub Stats
 ![Poovarasan's GitHub stats](https://github-readme-stats.vercel.app/api?username=poovarasansivakumar2003&show_icons=true&theme=radical)
