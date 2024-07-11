@@ -12,7 +12,7 @@ I'm a passionate Information Science and Engineering student with interests in w
   <a href="https://www.linkedin.com/in/poovarasan-s-a69128260/" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="LinkedIn logo" />
   </a>
-  <a href="poovarasansivakumar2003@gmail.com" target="_blank">
+  <a href="mailto:poovarasansivakumar2003@gmail.com" target="_blank">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/gmail/default.svg" width="52" height="40" alt="Gmail logo" />
   </a>
   <a href="https://www.instagram.com/poovarasansivakumar2003/" target="_blank">
