@@ -25,7 +25,7 @@ I'm Poovarasan S, an **Information Science and Engineering** student with a pass
 ---
 
 ## 🔗 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/poovarasansivakumar2003) 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/poovarasansivakumar2003/) 
 [![Portfolio](https://img.shields.io/badge/Portfolio-black?style=for-the-badge&logo=github)](https://poovarasansivakumar2003.github.io/Portfolio)
 
 ---
