@@ -4,6 +4,7 @@
 🎓 Currently in the **5th semester** of **Information Science & Engineering** at **UVCE**.  
 💡 Passionate about **Web Development**, **Machine Learning**, and **Open Source**.  
 🌍 Exploring cutting-edge tech to make a difference, one project at a time!  
+📝 Here is my [![Resume](https://img.shields.io/badge/Resume-%23FF5733.svg?logo=adobeacrobatreader&logoColor=white)](https://github.com/<your-username>/<repository-name>/blob/main/resume.pdf)
 
 
 ## 🚀 What Drives Me  
