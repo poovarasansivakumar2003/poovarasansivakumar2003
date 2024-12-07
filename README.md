@@ -1,16 +1,15 @@
-# 💫 About Me:
-👋 Hello! I'm Poovarasan S <br>
-🚀 Passionate Developer | 5th Semester ISE Student at UVCE <br>
-🎓 Currently pursuing B.Tech in Information Science & Engineering at University Visvesvaraya College of Engineering (UVCE). <br>
-💡 Exploring innovative solutions and building impactful projects in various domains of technology. <br>
-💻 Developing skills on  **web development**, **machine learning**, and **open source**<br>
+# 💫 About Me  
+👋 **Hi there!** I’m **Poovarasan S**, a tech enthusiast on a mission to create impactful solutions!  
+🚀 **Developer | Innovator | Lifelong Learner**  
+🎓 Currently in the **5th semester** of **Information Science & Engineering** at **UVCE**.  
+💡 Passionate about **Web Development**, **Machine Learning**, and **Open Source**.  
+🌍 Exploring cutting-edge tech to make a difference, one project at a time!  
 
 
-## 🚀 About Me
-
-- 🌱 **Currently Learning**: Always diving into new technologies and frameworks to expand my toolkit.
-- 💻 **Ask Me About**: My projects, problem-solving techniques, and anything web-related!
-- 🤝 **Open to Collaboration**: Love working with others on exciting open-source projects.
+## 🚀 What Drives Me  
+- 🌱 **Currently Learning**: Staying ahead with emerging technologies, frameworks, and tools.  
+- 💻 **Ask Me About**: Projects, problem-solving strategies, or cool web dev tricks!  
+- 🤝 **Open to Collaboration**: Let’s team up to build something amazing.  
 
 
 ## 🌐 Socials:
@@ -42,9 +41,11 @@
 ![](https://github-profile-trophy.vercel.app/?username=poovarasansivakumar2003&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 
-### 🌟 Highlights
-- 🏆 **Winner of Securehack**: Secured **1st place** in a national-level cybersecurity hackathon.
-- 💡 Building cool projects: obstacle-detecting Arduino cars, and innovative web solutions.
+## 🏆 Highlights  
+- 🥇 **Securehack Champion**: Won **1st place** in a **national cybersecurity hackathon**.  
+- 🤖 Built an **Obstacle-Detecting Arduino Car** using **Ultrasonic Sensors** and **Motor Drivers**.  
+- 🌟 Developed an interactive **portfolio website** featuring animations and responsive design.  
+- 💡 Tackled challenging **hackathon problem statements**, crafting innovative solutions.  
 
 
 [![](https://visitcount.itsvg.in/api?id=poovarasansivakumar2003&icon=0&color=6)](https://visitcount.itsvg.in)
