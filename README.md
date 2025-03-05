@@ -35,6 +35,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=poovarasansivakumar2003&theme=radical&hide_border=false&include_all_commits=true&count_private=true" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=poovarasansivakumar2003&theme=radical&hide_border=false" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poovarasansivakumar2003&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poovarasansivakumar2003&radius=16&theme=github-dark&area=true&order=3"/>
 </div>
 
 
