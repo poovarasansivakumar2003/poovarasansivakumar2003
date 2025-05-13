@@ -1,3 +1,16 @@
+<div align="center">
+  <h1>✨ Poovarasan S ✨</h1>
+  
+  <a href="https://github.com/poovarasansivakumar2003"><img src="https://github.com/poovarasansivakumar2003.png" alt="Poovarasan S" width="200" height="200" style="border-radius:100%;"/></a>
+  
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=500&color=00FFAF&center=true&vCenter=true&width=550&lines=Full-Stack+Developer;Machine+Learning+Enthusiast;Lifelong+Learner;Open+to+Opportunities!" alt="Typing SVG" />
+  <p>
+    <img src="https://img.shields.io/github/followers/poovarasansivakumar2003?label=Follow&style=flat-square" alt="GitHub followers"/>
+    <img src="https://img.shields.io/github/stars/poovarasansivakumar2003?affiliations=OWNER%2CCOLLABORATOR%2CORGANIZATION_MEMBER&style=flat-square" alt="GitHub stars"/>
+    <img src="https://komarev.com/ghpvc/?username=poovarasansivakumar2003&style=flat-square&color=brightgreen" alt="profile views"/>
+  </p>
+</div>
+
 # 💫 About Me  
 👋 **Hi there!** I’m **Poovarasan S**, a tech enthusiast on a mission to create impactful solutions!  
 🚀 **Developer | Innovator | Lifelong Learner**  
@@ -32,10 +45,10 @@
 
 # 📊 GitHub Stats:
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=poovarasansivakumar2003&theme=radical&hide_border=false&include_all_commits=true&count_private=true" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=poovarasansivakumar2003&theme=radical&hide_border=false" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poovarasansivakumar2003&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact" />
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poovarasansivakumar2003&radius=16&theme=github-dark&area=true&order=3"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=poovarasansivakumar2003&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true" /><br>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=poovarasansivakumar2003&&theme=tokyonight&hide_border=true&border_radius=10&include_all_commits=true&count_private=true&layout=compact" /><br>
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=poovarasansivakumar2003&theme=tokyonight&hide_border=true&border_radius=10" /><br>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=poovarasansivakumar2003&radius=16&theme=github-dark&area=true&order=3"/><br>
 </div>
 
 
@@ -48,5 +61,3 @@
 - 🤖 Built an **Obstacle-Detecting Arduino Car** using **Ultrasonic Sensors** and **Motor Drivers**.  
 - 🌟 Developed an interactive **portfolio website** featuring animations and responsive design.  
 - 💡 Tackled challenging **hackathon problem statements**, crafting innovative solutions.  
-
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=poovarasansivakumar2003&label=Profile%20views&color=0e75b6&style=flat" alt="poovarasansivakumar2003" /> </p>
