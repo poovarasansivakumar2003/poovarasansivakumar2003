@@ -49,5 +49,4 @@
 - 🌟 Developed an interactive **portfolio website** featuring animations and responsive design.  
 - 💡 Tackled challenging **hackathon problem statements**, crafting innovative solutions.  
 
-
-[![](https://visitcount.itsvg.in/api?id=poovarasansivakumar2003&icon=0&color=6)](https://visitcount.itsvg.in)
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=poovarasansivakumar2003&label=Profile%20views&color=0e75b6&style=flat" alt="poovarasansivakumar2003" /> </p>
