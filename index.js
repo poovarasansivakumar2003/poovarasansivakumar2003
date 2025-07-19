@@ -1,4 +1,4 @@
-    // Loader hide logic
+// Loader hide logic
     window.addEventListener('load', function() {
       const loader = document.getElementById('loader');
       if (loader) {
@@ -85,13 +85,16 @@ document.addEventListener('DOMContentLoaded', function () {
     // Set initial theme
     if (savedTheme === 'light') {
         htmlElement.setAttribute('data-theme', 'light');
+        htmlElement.classList.remove('dark');
         updateThemeUI('light');
     } else if (savedTheme === 'dark' || prefersDark) {
         htmlElement.setAttribute('data-theme', 'dark');
+        htmlElement.classList.add('dark');
         updateThemeUI('dark');
     } else {
         // Default to dark theme if no preference
         htmlElement.setAttribute('data-theme', 'dark');
+        htmlElement.classList.add('dark');
         updateThemeUI('dark');
     }
 
@@ -101,6 +104,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const newTheme = currentTheme === 'light' ? 'dark' : 'light';
 
         htmlElement.setAttribute('data-theme', newTheme);
+        if (newTheme === 'dark') {
+            htmlElement.classList.add('dark');
+        } else {
+            htmlElement.classList.remove('dark');
+        }
         localStorage.setItem('theme', newTheme);
         updateThemeUI(newTheme);
         updateNavTheme();

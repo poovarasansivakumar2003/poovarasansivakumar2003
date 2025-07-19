@@ -424,25 +424,15 @@ section:last-of-type {
 
 /* About, Github, Contact Section Background Fix for Light Theme */
 .about-section,
-#github,
 #contact {
     background-color: #fff !important;
     transition: background-color 0.3s;
 }
 [data-theme="dark"] .about-section,
-[data-theme="dark"] #github,
 [data-theme="dark"] #contact {
     background-color: #1a202c !important;
 }
 
-/* Projects Section Card and Responsive Fix */
-.projects-section {
-    background-color: #fff !important;
-    transition: background-color 0.3s;
-}
-[data-theme="dark"] .projects-section {
-    background-color: #1a202c !important;
-}
 .project-card {
     background-color: #fff;
     border: 1px solid #ffedd5;
@@ -470,11 +460,16 @@ section:last-of-type {
 }
 
 /* Feedback Section Card and Responsive Fix */
-.feedback-section {
+.feedback-section, .license {
     background-color: #fff !important;
     transition: background-color 0.3s;
 }
-[data-theme="dark"] .feedback-section {
+[data-theme="light"] .feedback-section,
+[data-theme="light"] .license {
+    background-color: #fff !important;
+}
+[data-theme="dark"] .feedback-section,
+[data-theme="dark"] .license {
     background-color: #1a202c !important;
 }
 .feedback-card {

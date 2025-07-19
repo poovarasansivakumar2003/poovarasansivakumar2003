@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -13,7 +13,7 @@
   <meta property="og:title" content="Poovarasan S | Portfolio | Web Developer & Designer">
   <meta property="og:description" content="Portfolio of Poovarasan S, web developer and designer. Explore projects, skills, and connect for collaborations.">
   <meta property="og:image" content="https://github.com/poovarasansivakumar2003.png">
-  <meta property="og:url" content="https://poovarasansivakumar2003.github.io/Portfolio/">
+  <meta property="og:url" content="https://poovarasansivakumar2003.github.io/poovarasansivakumar2003/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="Poovarasan Portfolio">
@@ -26,7 +26,7 @@
   <meta name="DC.creator" content="Poovarasan S">
   <meta name="DC.description" content="Portfolio of Poovarasan S, web developer and designer. Explore projects, skills, and connect for collaborations.">
   <meta name="DC.language" content="en">
-  <link rel="canonical" href="https://poovarasansivakumar2003.github.io/Portfolio/">
+  <link rel="canonical" href="https://poovarasansivakumar2003.github.io/poovarasansivakumar2003/">
   <link rel="icon" href="./img/favicon.png" type="image/png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -61,6 +61,10 @@
 
   <!-- Navigation -->
   <nav class="fixed top-0 left-0 h-full z-50 transition-all duration-300">
+    <!-- Add nav-toggle for mobile menu if needed -->
+    <button id="nav-toggle" class="md:hidden absolute top-4 left-24 z-50 bg-gray-800 text-orange-400 w-10 h-10 rounded-md flex items-center justify-center shadow-md hover:bg-gray-700 transition-all duration-200" aria-label="Open navigation" style="display:none;">
+      <i class="fas fa-bars"></i>
+    </button>
     <!-- Navigation menu - Fix visibility -->
     <div id="nav-menu" class="nav-menu collapsed h-full w-20 md:w-64 bg-gray-900/95 backdrop-blur-md border-r border-gray-800/60 shadow-xl flex flex-col transition-all duration-300 z-[50]">
       <div class="flex flex-col h-full">
@@ -89,12 +93,6 @@
               <a href="#projects" class="nav-link flex items-center space-x-3 py-3 px-4 rounded-md hover:bg-orange-500/10 transition-all duration-200">
                 <i class="fas fa-briefcase text-lg"></i>
                 <span class="font-medium hidden md:inline">Projects</span>
-              </a>
-            </li>
-            <li>
-              <a href="#github" class="nav-link flex items-center space-x-3 py-3 px-4 rounded-md hover:bg-orange-500/10 transition-all duration-200">
-                <i class="fab fa-github text-lg"></i>
-                <span class="font-medium hidden md:inline">Github</span>
               </a>
             </li>
             <li>
@@ -155,14 +153,14 @@
           </a>
         </div>
         <!-- Social Media Links -->
-        <div class="flex justify-center md:justify-start gap-6 mt-8 animate-hero-fadein" style="animation-delay:0.4s;">
-          <a href="https://github.com/poovarasansivakumar2003" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors" style="z-index:2;position:relative;">
+        <div class="flex justify-center md:justify-start gap-6 mt-8 animate-hero-fadein" style="animation-delay:0.4s; z-index:30; position:relative;">
+          <a href="https://github.com/poovarasansivakumar2003" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://linkedin.com/in/poovarasansivakumar2003" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors" style="z-index:2;position:relative;">
+          <a href="https://linkedin.com/in/poovarasansivakumar2003" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="mailto:poovarasansivakumar2003@gmail.com" aria-label="Email" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors" style="z-index:2;position:relative;">
+          <a href="mailto:poovarasansivakumar2003@gmail.com" aria-label="Email" class="text-2xl sm:text-3xl text-gray-500 hover:text-orange-500 transition-colors">
             <i class="fas fa-envelope"></i>
           </a>
         </div>
@@ -234,8 +232,7 @@
           <span class="about-skill"><i class="fas fa-pencil-alt"></i> Graphic Design</span>
         </div>
         <div class="text-center">
-          <a href="./Resume.pdf" target="_blank"
-            class="resumeBtn inline-block backdrop-blur-md border py-2 px-8 rounded-lg bg-orange-500 text-white font-semibold hover:bg-orange-600 transition-colors duration-200 shadow hover:translate-y-[-2px]">
+          <a href="./Resume.pdf" target="_blank" class="resumeBtn inline-block backdrop-blur-md border py-2 px-8 rounded-lg bg-orange-500 text-white font-semibold hover:bg-orange-600 transition-colors duration-200 shadow hover:translate-y-[-2px]">
             View Resume
           </a>
         </div>
@@ -244,7 +241,7 @@
   </section>
 
   <!-- Projects Section -->
-  <section class="projects-section w-full py-16 sm:py-20 md:py-28 bg-white dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden" id="projects">
+  <section class="projects-section w-full py-16 sm:py-20 md:py-28 bg-gradient-to-r from-orange-100/10 to-orange-200/10 transition-colors duration-300 relative overflow-hidden" id="projects">
     <!-- Animated Dots -->
     <div class="section-dots pointer-events-none absolute inset-0 z-0">
       <span class="hero-dot absolute left-8 top-10 w-2.5 h-2.5 rounded-full bg-orange-400 opacity-60 animate-dot1"></span>
@@ -262,46 +259,34 @@
         <div class="project-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition border border-orange-100 dark:border-gray-800">
           <h3 class="text-xl font-semibold mb-2 text-orange-500">Personal Portfolio</h3>
           <p class="mb-4 text-gray-500 dark:text-gray-400">A responsive portfolio website built with HTML, Tailwind CSS, and JavaScript, featuring dark/light mode and smooth navigation.</p>
-          <a href="https://poovarasansivakumar2003.github.io/Portfolio/" target="_blank" class="text-orange-500 hover:underline font-medium">View Live</a>
+          <a href="https://poovarasansivakumar2003.github.io/poovarasansivakumar2003/" target="_blank" class="text-orange-500 hover:underline font-medium">View Live</a>
         </div>
         <div class="project-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition border border-orange-100 dark:border-gray-800">
-          <h3 class="text-xl font-semibold mb-2 text-orange-500">Arduino Home Automation</h3>
-          <p class="mb-4 text-gray-500 dark:text-gray-400">IoT project using Arduino to automate home appliances with mobile app integration and real-time monitoring.</p>
-          <a href="https://github.com/poovarasansivakumar2003/arduino-home-automation" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
+          <h3 class="text-xl font-semibold mb-2 text-orange-500">Mediverse</h3>
+          <p class="mb-4 text-gray-500 dark:text-gray-400">Solo full-stack DBMS project with features including admin dashboard, stock alerts, invoicing, and email authentication.</p>
+          <p class="mb-4 text-gray-500 dark:text-gray-400">Tech Stack: Node.js, MySQL, EJS, JavaScript, Nodemailer, Multer, Pdfkit</p>
+          <a href="https://github.com/poovarasansivakumar2003/DBMS-Mini-Project" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
+          <a href="https://dbms-mini-project-a3jd.onrender.com/" target="_blank" class="text-orange-500 hover:underline font-medium">View Live</a>
         </div>
         <div class="project-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition border border-orange-100 dark:border-gray-800">
-          <h3 class="text-xl font-semibold mb-2 text-orange-500">UVCE Hackathon Portal</h3>
-          <p class="mb-4 text-gray-500 dark:text-gray-400">A web portal for managing hackathon registrations, submissions, and results, built with Firebase and JavaScript.</p>
-          <a href="https://github.com/poovarasansivakumar2003/hackathon-portal" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
+          <h3 class="text-xl font-semibold mb-2 text-orange-500">AI-Powered Healthcare Assistant</h3>
+          <p class="mb-4 text-gray-500 dark:text-gray-400">An intelligent, AI-driven system designed to support preliminary diagnosis, test recommendation, and basic medical guidance. Built to meet the rising demand for accessible, fast, and accurate healthcare solutions.</p>
+          <a href="https://github.com/poovarasansivakumar2003/Intellimanthan_Project_2" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
         </div>
-        <!-- Add more project cards as needed -->
-      </div>
-    </div>
-  </section>
+        <div class="project-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition border border-orange-100 dark:border-gray-800">
+          <h3 class="text-xl font-semibold mb-2 text-orange-500">CyberGuard Training Platform</h3>
+          <p class="mb-4 text-gray-500 dark:text-gray-400">The CyberGuard Training Platform is an interactive, gamified environment designed to teach users essential cybersecurity skills. It offers various learning modules, real-world simulations, and quests to help individuals become proficient in both offensive and defensive security techniques.</p>
+          <a href="https://github.com/poovarasansivakumar2003/securehackthon" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
+          <a href="https://securathon.onrender.com/" target="_blank" class="text-orange-500 hover:underline font-medium">View Live</a>
+        </div>
+        <div class="project-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-6 flex flex-col hover:shadow-2xl transition border border-orange-100 dark:border-gray-800">
+          <h3 class="text-xl font-semibold mb-2 text-orange-500">BitNBuild 24 Hackathon</h3>
+          <p class="mb-4 text-gray-500 dark:text-gray-400">This project is a solution to help individuals like Ravi, who struggle with managing their belongings in an organized manner. The application allows users to catalog their clothes, accessories, and personal items, making it easier to track what they own and make more sustainable choices.</p>
+          <a href="https://github.com/poovarasansivakumar2003/Bit-N-Build-2024-Binary_innovators" target="_blank" class="text-orange-500 hover:underline font-medium">View on GitHub</a>
+          <a href="https://completerepo.onrender.com/home" target="_blank" class="text-orange-500 hover:underline font-medium">View Live</a>
+        </div>
 
-  <!-- GitHub Section -->
-  <section class="w-full py-16 sm:py-20 md:py-32 bg-white dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden" id="github">
-    <!-- Animated Dots -->
-    <div class="section-dots pointer-events-none absolute inset-0 z-0">
-      <span class="hero-dot absolute left-8 top-10 w-2.5 h-2.5 rounded-full bg-orange-400 opacity-60 animate-dot1"></span>
-      <span class="hero-dot absolute right-10 top-16 w-2 h-2 rounded-full bg-orange-300 opacity-50 animate-dot2"></span>
-      <span class="hero-dot absolute left-1/2 bottom-8 w-2 h-2 rounded-full bg-orange-500 opacity-60 animate-dot3"></span>
-      <span class="hero-dot absolute right-24 bottom-16 w-2.5 h-2.5 rounded-full bg-orange-200 opacity-40 animate-dot4"></span>
-      <span class="hero-dot absolute left-24 top-1/2 w-2 h-2 rounded-full bg-orange-500 opacity-40 animate-dot5"></span>
-    </div>
-    <div class="relative z-10 container mx-auto px-6 md:px-12">
-      <h2 class="section-title text-3xl sm:text-4xl md:text-5xl font-extrabold mb-12 mt-4 pt-2 pb-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600 tracking-tight leading-tight">
-        GitHub
-      </h2>
-      <div class="flex flex-col items-center">
-        <a href="https://github.com/poovarasansivakumar2003" target="_blank" class="flex items-center gap-3 px-8 py-4 bg-gray-900/80 rounded-lg shadow hover:bg-gray-800 transition text-white font-semibold text-lg">
-          <i class="fab fa-github text-2xl"></i>
-          github.com/poovarasansivakumar2003
-        </a>
-        <div class="mt-8 w-full max-w-2xl">
-          <!-- GitHub Stats Card (optional, can use shields.io or GitHub-readme-stats) -->
-          <img src="https://github-readme-stats.vercel.app/api?username=poovarasansivakumar2003&show_icons=true&theme=radical" alt="GitHub Stats" class="rounded-lg shadow mx-auto">
-        </div>
+        <!-- Add more project cards as needed -->
       </div>
     </div>
   </section>
@@ -321,7 +306,7 @@
         Feedback
       </h2>
       <div class="feedback-card bg-white dark:bg-gray-900/70 rounded-xl shadow-lg p-8 sm:p-10 flex flex-col border border-orange-100 dark:border-gray-800">
-        <form action="https://formspree.io/f/xayrjzqk" method="POST" class="flex flex-col gap-6">
+        <form action="https://formspree.io/f/xkgzowdy" method="POST" class="flex flex-col gap-6">
           <input type="text" name="name" placeholder="Your Name" required class="p-3 rounded bg-gray-100 dark:bg-gray-800/60 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-400">
           <input type="email" name="email" placeholder="Your Email" required class="p-3 rounded bg-gray-100 dark:bg-gray-800/60 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-400">
           <textarea name="message" rows="4" placeholder="Your Feedback" required class="p-3 rounded bg-gray-100 dark:bg-gray-800/60 text-gray-800 dark:text-white focus:outline-none focus:ring-2 focus:ring-orange-400"></textarea>
@@ -332,7 +317,7 @@
   </section>
 
   <!-- Contact Section -->
-  <section class="w-full py-16 sm:py-20 md:py-32 bg-white dark:bg-gray-900 transition-colors duration-300 relative overflow-hidden" id="contact">
+  <section class="w-full py-16 sm:py-20 md:py-32 bg-gradient-to-r from-orange-100/10 to-orange-200/10 transition-colors duration-300 relative overflow-hidden" id="contact">
     <!-- Animated Dots -->
     <div class="section-dots pointer-events-none absolute inset-0 z-0">
       <span class="hero-dot absolute left-8 top-10 w-2.5 h-2.5 rounded-full bg-orange-400 opacity-60 animate-dot1"></span>
@@ -346,26 +331,33 @@
         Contact
       </h2>
       <div class="flex flex-col md:flex-row items-center justify-center gap-10">
-        <div class="flex flex-col gap-4 text-lg text-gray-300">
+        <div class="flex flex-col gap-4 text-lg text-gray-700 dark:text-gray-300">
           <div><i class="fas fa-envelope text-orange-400 mr-2"></i> <a href="mailto:poovarasansivakumar2003@gmail.com" class="hover:underline">poovarasansivakumar2003@gmail.com</a></div>
-          <div><i class="fas fa-phone text-orange-400 mr-2"></i> <a href="tel:+919876543210" class="hover:underline">+91 98765 43210</a></div>
           <div><i class="fas fa-map-marker-alt text-orange-400 mr-2"></i> Bangalore, India</div>
         </div>
         <div class="flex gap-6 mt-8 md:mt-0">
-          <a href="https://github.com/poovarasansivakumar2003" target="_blank" class="text-2xl text-gray-400 hover:text-orange-500"><i class="fab fa-github"></i></a>
-          <a href="https://linkedin.com/in/poovarasansivakumar2003" target="_blank" class="text-2xl text-gray-400 hover:text-orange-500"><i class="fab fa-linkedin"></i></a>
-          <a href="mailto:poovarasansivakumar2003@gmail.com" class="text-2xl text-gray-400 hover:text-orange-500"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/poovarasansivakumar2003" target="_blank" class="text-2xl text-gray-400 hover:text-orange-500" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/in/poovarasansivakumar2003" target="_blank" class="text-2xl text-gray-400 hover:text-orange-500" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:poovarasansivakumar2003@gmail.com" class="text-2xl text-gray-400 hover:text-orange-500" aria-label="Email"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
     </div>
   </section>
 
+  <!-- Footer -->
+  <footer class="w-full py-4 bg-gray-100 dark:bg-gray-900 text-center text-gray-500 dark:text-gray-400 text-sm license">
+    <div>
+      <span>&copy; 2024 Poovarasan S, All rights reserved | </span>
+      <a href="https://github.com/poovarasansivakumar2003/poovarasansivakumar2003/blob/main/LICENSE.md" target="_blank" class="license-link">license</a>
+    </div>
+  </footer>
+
   <script src="index.js"></script>
 
   <!-- Back to Top Button -->
-  <button id="backToTop" title="Back to top"
-    class="fixed bottom-6 right-6 z-50 bg-orange-500 text-white rounded-full shadow-lg w-12 h-12 flex items-center justify-center text-2xl opacity-0 pointer-events-none transition-all duration-300 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400">
+  <button id="backToTop" title="Back to top" class="fixed bottom-6 right-6 z-50 bg-orange-500 text-white rounded-full shadow-lg w-12 h-12 flex items-center justify-center text-2xl opacity-0 pointer-events-none transition-all duration-300 hover:bg-orange-600 focus:outline-none focus:ring-2 focus:ring-orange-400">
     <i class="fas fa-arrow-up"></i>
   </button>
 </body>
+
 </html>
