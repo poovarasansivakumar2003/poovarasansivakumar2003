@@ -15,7 +15,7 @@
 👋 **Hi there!** I’m **Poovarasan S**, a tech enthusiast on a mission to create impactful solutions!  
 🚀 **Developer | Innovator | Lifelong Learner**  
 🎓 Currently in the **6th semester** of **Information Science & Engineering** at **UVCE**.  
-💡 Passionate about **Web Development**, **Machine Learning**, and **Open Source**.  
+💡 Passionate about **Web Development** and **Machine Learning**.
 🌍 Exploring cutting-edge tech to make a difference, one project at a time!  
 📝 Here is my [![Resume](https://img.shields.io/badge/Resume-%23FF5733.svg?logo=adobeacrobatreader&logoColor=white)](./Resume.pdf)
 
@@ -39,8 +39,6 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
 ![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white) 
 
 
 # 📊 GitHub Stats:
@@ -57,7 +55,6 @@
 
 
 ## 🏆 Highlights  
-- 🥇 **Securehack Champion**: Won **1st place** in a **national cybersecurity hackathon**.  
-- 🤖 Built an **Obstacle-Detecting Arduino Car** using **Ultrasonic Sensors** and **Motor Drivers**.  
+- 🥇 **Securehack Champion**: Won **1st place** in a **national cybersecurity hackathon**.    
 - 🌟 Developed an interactive **portfolio website** featuring animations and responsive design.  
 - 💡 Tackled challenging **hackathon problem statements**, crafting innovative solutions.  
