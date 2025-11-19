@@ -13,9 +13,8 @@
 
 # 💫 About Me  
 👋 **Hi there!** I’m **Poovarasan S**, a tech enthusiast on a mission to create impactful solutions!  
-🚀 **Developer | Innovator | Lifelong Learner**  
-🎓 Currently in the **6th semester** of **Information Science & Engineering** at **UVCE**.  
-💡 Passionate about **Web Development** and **Machine Learning**.
+🎓 Currently in the **7th semester** of **Information Science & Engineering** at **UVCE**.  
+💡 Passionate about **Web Development** and **Machine Learning**.<br>
 🌍 Exploring cutting-edge tech to make a difference, one project at a time!  
 📝 Here is my [![Resume](https://img.shields.io/badge/Resume-%23FF5733.svg?logo=adobeacrobatreader&logoColor=white)](./Resume.pdf)
 
